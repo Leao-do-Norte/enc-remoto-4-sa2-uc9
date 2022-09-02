@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ângelo Vinícius B Tavares (Turma Full-stack 13)">
+    <link href="css/style-login.css" rel="stylesheet">
+    <script src="js/script-login.js" defer></script>
+    <title>Login/Cadastro</title>
+</head>
+<body>
+    <header>
+        <div class="container-grid cabecalho">
+            <div class="logo">
+                <img src="img/logo-game-mania.jpg" alt="Logo Game Mania">
+            </div>
+            <div class="nome-site">
+                <a href="index.html"><p>Game Mania</p></a>
+            </div>
+        </div>
+    </header>
+<center>
+    <div class="formularios">
+        <div class="login">
+            <h1>Login do Usuário</h1>
+                <form>
+                    <label for="email-example">E-mail</label>
+                    <input type="email" id="email-example">
+                    <br><br>
+                    <label for="password-example">Senha</label>
+                    <input type="password" id="password-example">
+                    <br><br>
+                    <button onclick="fazerLogin()">Enviar</button>
+                </form>
+        </div>
+        <div class="cadastro">  
+            <h1>Ainda não possui uma conta?</h1>
+                <form>
+                    <label for="name">Nome completo</label>
+                    <input type="text" id="name">
+                    <br><br>
+                    <label for="tel">Telefone (opcional)</label>
+                    <input type="tel" id="tel" name="tel" maxlength="11">
+                    <br><br>
+                    <label for="adress">Endereço</label>
+                    <input type="text" id="adress">
+                    <br><br>
+                    <label for="email-example-2">E-mail</label>
+                    <input type="email" id="email-example-2">
+                    <br><br>
+                    <label for="password-example1">Senha</label>
+                    <input type="password" id="password-example1">
+                    <br><br>
+                    <label for="password-example2">Repita a senha</label>
+                    <input type="password" id="password-example2">
+                    <br><br>
+                    <button onclick="cadastrarUsuario()">Enviar</button>
+                </form>
+        </div>
+    </div>
+</center>
+</body>
+</html>

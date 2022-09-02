@@ -1,0 +1,77 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #0f044e;
+    color: white;
+}
+
+header{
+    padding-top: 25px; 
+}
+
+.logo img{
+    border-radius: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+.nome-site a, p{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container-grid{
+    width: 500px;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100px;
+    align-items: center;
+    padding-top: 25px;
+}
+
+body form{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+body h1{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 28px;
+    padding-top: 25px;
+}
+
+body input{
+    height: 22px;
+}
+
+body button{
+    padding: 2px 7px 2px 7px;
+}
+
+.formularios{
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.login form{
+    text-align: left;
+}
+
+.cadastro form{
+    text-align: right;
+}
